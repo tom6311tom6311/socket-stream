@@ -1,0 +1,40 @@
+{
+  "name": "socket-stream",
+  "version": "1.0.0",
+  "description": "A fast, reliable and bidirectional stream interface based on ws",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tom6311tom6311/socket-stream.git"
+  },
+  "keywords": [
+    "websocket",
+    "stream",
+    "ws"
+  ],
+  "author": "tom6311tom6311",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tom6311tom6311/socket-stream/issues"
+  },
+  "homepage": "https://github.com/tom6311tom6311/socket-stream#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.18.2",
+    "iso-random-stream": "^1.1.0",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "ws": "^7.1.1"
+  }
+}
