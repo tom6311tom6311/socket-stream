@@ -1,5 +1,5 @@
 {
-  "name": "socket-stream",
+  "name": "ws-socket-stream",
   "version": "1.0.0",
   "description": "A fast, reliable and bidirectional stream interface based on ws",
   "main": "index.js",

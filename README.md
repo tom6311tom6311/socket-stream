@@ -1,10 +1,10 @@
-# socket-stream
+# ws-socket-stream
 
-*socket-stream* is a npm package for streaming data between clients and servers. To be precise, one can view *socket-stream* as an extension of the [ws](https://www.npmjs.com/package/ws) library with the capability of transmitting large files efficiently via Node.js streams. The `SocketStreamClient` and `SocketStreamServer` classes extend from `ws` and `ws.Server`, respectively, but with additional streaming functionalities.
+*ws-socket-stream* is a npm package for streaming data between clients and servers. To be precise, one can view *ws-socket-stream* as an extension of the [ws](https://www.npmjs.com/package/ws) library with the capability of transmitting large files efficiently via Node.js streams. The `SocketStreamClient` and `SocketStreamServer` classes extend from `ws` and `ws.Server`, respectively, but with additional streaming functionalities.
 
 ## Installation
 ```
-npm install socket-stream
+npm install ws-socket-stream
 ```
 
 ## API Reference
@@ -26,7 +26,7 @@ npm install socket-stream
   - Server Side
     ```JavaScript
     const fs = require('fs');
-    const { SocketStreamServer } = require('socket-stream');
+    const { SocketStreamServer } = require('ws-socket-stream');
 
     // initialize SocketStreamServer
     const sss = new SocketStreamServer({
@@ -41,7 +41,7 @@ npm install socket-stream
   - Client Side
     ```JavaScript
     const fs = require('fs');
-    const { SocketStreamClient } = require('socket-stream');
+    const { SocketStreamClient } = require('ws-socket-stream');
 
     // initialize SocketStreamClient
     const ssc = new SocketStreamClient('http://SERVER_IP:7501/');
@@ -55,7 +55,7 @@ npm install socket-stream
   - Server Side
     ```JavaScript
     const fs = require('fs');
-    const { SocketStreamServer } = require('socket-stream');
+    const { SocketStreamServer } = require('ws-socket-stream');
 
     // initialize SocketStreamServer
     const sss = new SocketStreamServer({
@@ -74,7 +74,7 @@ npm install socket-stream
   - Client Side
     ```JavaScript
     const fs = require('fs');
-    const { SocketStreamClient } = require('socket-stream');
+    const { SocketStreamClient } = require('ws-socket-stream');
 
     // initialize SocketStreamClient
     const ssc = new SocketStreamClient('http://SERVER_IP:7501/');
